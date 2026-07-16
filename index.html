@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>AI Chatbot</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div id="app">
+ <header>
+ <h1>Chat</h1>
+ <label class="theme-toggle" aria-label="Toggle dark mode">
+ <input type="checkbox" id="theme-switch">
+ <span class="slider"></span>
+ </label>
+ </header>
+ <div id="chat-container">
+ <div id="messages"></div>
+ <div id="typing-indicator" class="hidden">
+ <span></span><span></span><span></span>
+ </div>
+ </div>
+ <footer>
+ <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off">
+ <button id="send-btn">&#9654;</button>
+ </footer>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
